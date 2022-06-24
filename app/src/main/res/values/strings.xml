@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VPLonIoT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">VPL for Holon based IoT System</string>
+    <string name="nav_header_subtitle">2540463w@student.gla.ac.uk</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Task Manager</string>
+    <string name="menu_reflow">Visual Editor</string>
+    <string name="menu_settings">Result Viewer</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="upload_description_button">upload holons\' description</string>
+    <string name="submit_name">submit name</string>
+    <string name="name">Name:</string>
+    <string name="free_mode">Free Mode</string>
+</resources>

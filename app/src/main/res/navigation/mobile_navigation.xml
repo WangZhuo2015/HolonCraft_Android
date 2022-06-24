@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_holon">
+
+    <fragment
+        android:id="@+id/nav_holon"
+        android:name="online.iamwz.vploniot.ui.task_manager.TaskSettingsFragment"
+        android:label="@string/menu_transform"
+        tools:layout="@layout/fragment_task_settings" />
+
+    <fragment
+        android:id="@+id/nav_workflow"
+        android:name="online.iamwz.vploniot.ui.blockly.BlocklyFragment"
+        android:label="@string/menu_reflow"
+        tools:layout="@layout/fragment_blockly" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="online.iamwz.vploniot.ui.settings.ResultFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_result" />
+</navigation>
